@@ -23,7 +23,7 @@ class OtherName extends Component {
                 <p><small>{product.createdAt}</small></p>
                 <p>{product.description}</p>
                 <p><a href={product.url} target="_blank">{product.url}</a></p>
-                <Link to="/" >Go Back</Link>
+                <Link to="/other" >Go Back</Link>
 
             </div>
         );
